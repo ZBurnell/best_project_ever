@@ -1,0 +1,16 @@
+{
+    "name": "Zombie_survival_AI",
+    "version": "0.0.0",
+    "dependencies": {
+      "langchain": "^0.0.131",
+      "react": "^18.2.0"
+    },
+    "scripts": {
+      "start": "",
+      "build": "",
+      "run": ""  
+    },
+    "devDependencies": {
+    }
+  }
+  
