@@ -10,8 +10,8 @@ const LangchainProcessor = async (newMessage, oldMessages) => {
     const prompt = promptTemplate.replace("{question}", newMessage);
 
     const chat = new ChatOpenAI({
-        temperature: 0,
-        openAIApiKey: ProcessingInstruction.env.REACT_APP_OPEN_AI_API_KEY
+        temperature: 1,
+        openAIApiKey: process.env.REACT_APP_OPEN_AI_API_KEY
     });
 
     try {

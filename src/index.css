@@ -4,12 +4,17 @@
 
 
 .react-chatbot-kit-chat-container {
-  width: 100% !important;
-}
+  width: 100% !important; 
+  color:black !important;
+  }
 
 .react-chatbot-kit-chat-bot-message {
   width: 98% !important;
   margin-left: 2% !important;
+}
+
+.react-chatbot-kit-chat-inner-container {
+  background-color: #232e3d  !important;
 }
 
 body {
@@ -24,4 +29,18 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.react-chatbot-kit-chat-header {
+  background-color: tan  !important;
+  color: black !important;
+}
+
+.react-chatbot-kit-chat-bot-avatar-container {
+  background-image: url(https://www.quick-toy.com/the-zombie-survivor-set-p-14881) !important;
+
+}
+
+.react-chatbot-kit-chat-bot-avater  {
+  background-image: url() !important;
 }

@@ -1,15 +1,21 @@
 import { createChatBotMessage } from "react-chatbot-kit";
-  
+
+
+const botName = "grizzled zombie survivor"
 const config = {
   // message for when first opening chat bot.
-  initialMessages: [createChatBotMessage(`Hey there!`)],
+ 
+  botName: botName,
+  initialMessages: [createChatBotMessage(`Hey stranger, how can I help you?`)],
   customStyles: {
       botMessageBox: {
-        backgroundColor: '#376B7E',
+        backgroundColor: '#1a401d',
       },
       chatButton: {
-        backgroundColor: '#5ccc9d',
+        backgroundColor: '#a30202',
       },
+      
+      
     },
 }
 
