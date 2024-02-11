@@ -3,9 +3,11 @@
 /.pnp
 .pnp.js
 package-lock.json
+node_modules
 
 # production
 /build
+build
 
 # misc
 .DS_Store
