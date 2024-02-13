@@ -1,0 +1,9 @@
+
+type User {
+  name:  String!
+  code: String!
+}
+
+type Mutation {
+  saveOrUpdateDocument(name: String!, otherField: String!): User!
+}
