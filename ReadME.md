@@ -27,7 +27,7 @@
 
 ## About The Project
 
-![Screen Shot](client\zmt.png)
+![Screen Shot](./client/zmt.png)
 
 It was decided that, seeing as the current technological trend is AI, it would be interesting and worthwhile to work with something that would be operated with said technology. Langchain, a framework that is for building applications based on large language models, makes it so that when used, it is provided trained and bound with certain context where it would allow the AI to only along the lines of the prompt that it has been given. In this case, the AI has been told it must be a survivor's helper in a zombie apocalypse and so it only answers as if this were entirely the case.
 
