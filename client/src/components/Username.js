@@ -5,7 +5,7 @@ export default function Username () {
   const [userInfo, setUserInfo] = useState({name:'', code:''})
 
   const postUserData = (userInfo) => {
-    fetch('http://localhost:9000/user', {
+    fetch('http://localhost:3000/user', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

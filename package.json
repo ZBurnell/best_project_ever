@@ -4,19 +4,20 @@
     "description": "A website that lets you search and add books to a list so you always know what to read next",
     "main": "server/server.js",
     "scripts": {
-      "start": "node server/server.js",
-      "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm run start\"",
-      "install": "cd server && npm i && cd ../client && npm i",
-      "build": "cd client && npm run build"
+        "start": "node server/server.js",
+        "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm run start\"",
+        "install": "cd server && npm i && cd ../client && npm i",
+        "build": "cd client && npm run build"
     },
     "keywords": [],
     "author": "ZBurnell",
     "license": "ISC",
     "devDependencies": {
-      "concurrently": "^8.2.2"
+        "concurrently": "^8.2.2"
     },
     "dependencies": {
-      "express": "^4.17.2"
+        "express": "^4.17.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
     }
-  }
-  
+}
