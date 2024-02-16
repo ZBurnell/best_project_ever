@@ -2,12 +2,13 @@ const express = require('express');
 const db = require('./config/config.js');
 const { json } = require('express');
 const cors = require('cors');
+const path = require('path');
 
 const { ApolloServer } = require('@apollo/server');
 const { typeDefs, resolvers } = require('./schemas/index.js');
 const authMiddleware = module.authMiddleware;
-const { addUser } = require('./model/User.js');
-const { expressMiddleware } = require('@apollo/server/express4');
+const { addUser } = require('./mongoose.js');
+const { expressMiddleware } = require('@apollo/server/express4')
 
 
 const app = express();
