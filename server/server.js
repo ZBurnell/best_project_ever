@@ -7,7 +7,7 @@ const path = require('path');
 const { ApolloServer } = require('@apollo/server');
 const { typeDefs, resolvers } = require('./schemas/index.js');
 const authMiddleware = module.authMiddleware;
-const { addUser } = require('./mongoose.js');
+const { addUser } = require('./model/User.js');
 const { expressMiddleware } = require('@apollo/server/express4')
 
 
